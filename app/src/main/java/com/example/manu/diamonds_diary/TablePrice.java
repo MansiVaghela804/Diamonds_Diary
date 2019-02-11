@@ -14,10 +14,10 @@ public class TablePrice {
     //  Create table SQL query
     public static final String CREATE_TABLE =
             "CREATE TABLE " + TABLE_NAME + "("
-                    + COLUMN_PRICE_1 + " NUMBER,"
-                    + COLUMN_PRICE_2 + " NUMBER,"
-                    + COLUMN_PRICE_3 + " NUMBER,"
-                    + COLUMN_PRICE_4 + " NUMBER,"
-                    + COLUMN_PRICE_5 + " NUMBER,"
-                    + COLUMN_PRICE_6 + " NUMBER" + ")";
+                    + COLUMN_PRICE_1 + " INTEGER,"
+                    + COLUMN_PRICE_2 + " INTEGER,"
+                    + COLUMN_PRICE_3 + " INTEGER,"
+                    + COLUMN_PRICE_4 + " INTEGER,"
+                    + COLUMN_PRICE_5 + " INTEGER,"
+                    + COLUMN_PRICE_6 + " INTEGER" + ")";
 }
