@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/homebackground"
+    tools:context=".Home_Button1_Activity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/Name">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/backspace"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginStart="110dp"
+            android:text="હીરા લખો"
+            android:textColor="@color/White"
+            android:textSize="20sp" />
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center|top">
+
+            <TextView
+                android:id="@+id/SetDate"
+                android:layout_width="349dp"
+                android:layout_height="48dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/box"
+                android:gravity="center"
+                android:text="18/12/2019"
+                android:onClick="Datepicker"
+                android:textColor="@color/White"
+                android:textSize="22sp" />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/SetDate">
+
+                <LinearLayout
+                    android:id="@+id/linear1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center|top">
+
+                    <TextView
+                        android:id="@+id/textview1"
+                        android:layout_width="100dp"
+                        android:layout_height="46dp"
+                        android:layout_marginTop="10dp"
+                        android:text="ભાવ"
+                        android:textColor="@color/White"
+                        android:gravity="center"
+                        android:textSize="33sp" />
+                    <TextView
+                        android:id="@+id/textview2"
+                        android:layout_width="100dp"
+                        android:layout_height="46dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="હીરા"
+                        android:textColor="@color/White"
+                        android:gravity="center"
+                        android:textSize="33sp"
+                        android:layout_marginLeft="20dp" />
+                    <TextView
+                        android:id="@+id/textview3"
+                        android:layout_width="100dp"
+                        android:layout_height="46dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="20dp"
+                        android:text="ટોટલ"
+                        android:textColor="@color/White"
+                        android:gravity="center"
+                        android:textSize="33sp"
+                        android:layout_marginLeft="20dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear2"
+                    android:layout_width="match_parent"
+                    android:layout_height="76dp"
+                    android:layout_below="@+id/linear1"
+                    android:gravity="center|top"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/Edit_Text_1"
+                        android:layout_width="100dp"
+                        android:layout_height="46dp"
+                        android:layout_below="@id/SetDate"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/box"
+                        android:gravity="center"
+                        android:hint="ભાવ ૧"
+                        android:textColor="@color/White"
+                        android:textColorHint="@color/White" />
+
+                    <EditText
+                        android:id="@+id/Edit_Text_11"
+                        android:layout_width="100dp"
+                        android:layout_height="46dp"
+                        android:layout_below="@id/SetDate"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/box"
+                        android:gravity="center"
+                        android:hint="હીરા ૧"
+                        android:textColor="@color/White"
+                        android:textColorHint="@color/White" />
+
+                    <TextView
+                        android:id="@+id/Edit_Text_21"
+                        android:layout_width="100dp"
+                        android:layout_height="46dp"
+                        android:layout_below="@id/SetDate"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/box"
+                        android:gravity="center"
+                        android:hint="0"
+                        android:textColor="@color/White"
+                        android:textColorHint="@color/White" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/linear3"
+                    android:layout_width="match_parent"
+                    android:layout_height="76dp"
+                    android:orientation="horizontal"
+                    android:layout_below="@+id/linear2"
+                    android:gravity="center|top">
+
+                    <EditText
+                        android:id="@+id/Edit_Text_2"
+                        android:layout_width="100dp"
+                        android:layout_height="46dp"
+                        android:layout_below="@id/SetDate"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/box"
+                        android:gravity="center"
+                        android:hint="ભાવ ૨"
+                        android:textColor="@color/White"
+                        android:textColorHint="@color/White" />
+
+                    <EditText
+                        android:id="@+id/Edit_Text_12"
+                        android:layout_width="100dp"
+                        android:layout_height="46dp"
+                        android:layout_below="@id/SetDate"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="20dp"
+                        android:background="@drawable/box"
+                        android:gravity="center"
+                        android:hint="હીરા ૨"
+                        android:textColor="@color/White"
+                        android:textColorHint="@color/White"
+                        android:layout_marginLeft="20dp" />
+                    <TextView
+                        android:id="@+id/Edit_Text_22"
+                        android:layout_width="100dp"
+                        android:layout_height="46dp"
+                        android:layout_below="@id/SetDate"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="20dp"
+                        android:background="@drawable/box"
+                        android:gravity="center"
+                        android:hint="0"
+                        android:textColor="@color/White"
+                        android:textColorHint="@color/White"
+                        android:layout_marginLeft="20dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/linear4"
+                    android:layout_width="match_parent"
+                    android:layout_height="76dp"
+                    android:orientation="horizontal"
+                    android:layout_below="@id/linear3"
+                    android:gravity="center|top">
+
+                    <EditText
+                        android:id="@+id/Edit_Text_3"
+                        android:layout_width="100dp"
+                        android:layout_height="46dp"
+                        android:layout_below="@id/SetDate"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/box"
+                        android:gravity="center"
+                        android:hint="ભાવ ૩"
+                        android:textColor="@color/White"
+                        android:textColorHint="@color/White" />
+
+                    <EditText
+                        android:id="@+id/Edit_Text_13"
+                        android:layout_width="100dp"
+                        android:layout_height="46dp"
+                        android:layout_below="@id/SetDate"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="20dp"
+                        android:background="@drawable/box"
+                        android:gravity="center"
+                        android:hint="હીરા ૩"
+                        android:textColor="@color/White"
+                        android:textColorHint="@color/White"
+                        android:layout_marginLeft="20dp" />
+                    <TextView
+                        android:id="@+id/Edit_Text_23"
+                        android:layout_width="100dp"
+                        android:layout_height="46dp"
+                        android:layout_below="@id/SetDate"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="20dp"
+                        android:background="@drawable/box"
+                        android:gravity="center"
+                        android:hint="0"
+                        android:textColor="@color/White"
+                        android:textColorHint="@color/White"
+                        android:layout_marginLeft="20dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/linear5"
+                    android:layout_width="match_parent"
+                    android:layout_height="76dp"
+                    android:orientation="horizontal"
+                    android:layout_below="@id/linear4"
+                    android:gravity="center|top">
+
+                    <EditText
+                        android:id="@+id/Edit_Text_4"
+                        android:layout_width="100dp"
+                        android:layout_height="46dp"
+                        android:layout_below="@id/SetDate"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/box"
+                        android:gravity="center"
+                        android:hint="ભાવ ૪"
+                        android:textColor="@color/White"
+                        android:textColorHint="@color/White" />
+
+                    <EditText
+                        android:id="@+id/Edit_Text_14"
+                        android:layout_width="100dp"
+                        android:layout_height="46dp"
+                        android:layout_below="@id/SetDate"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="20dp"
+                        android:background="@drawable/box"
+                        android:gravity="center"
+                        android:hint="હીરા ૪"
+                        android:textColor="@color/White"
+                        android:textColorHint="@color/White"
+                        android:layout_marginLeft="20dp" />
+                    <TextView
+                        android:id="@+id/Edit_Text_24"
+                        android:layout_width="100dp"
+                        android:layout_height="46dp"
+                        android:layout_below="@id/SetDate"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="20dp"
+                        android:background="@drawable/box"
+                        android:gravity="center"
+                        android:hint="0"
+                        android:textColor="@color/White"
+                        android:textColorHint="@color/White"
+                        android:layout_marginLeft="20dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/linear6"
+                    android:layout_width="match_parent"
+                    android:layout_height="76dp"
+                    android:orientation="horizontal"
+                    android:layout_below="@id/linear5"
+                    android:gravity="center|top">
+
+                    <EditText
+                        android:id="@+id/Edit_Text_5"
+                        android:layout_width="100dp"
+                        android:layout_height="46dp"
+                        android:layout_below="@id/SetDate"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/box"
+                        android:gravity="center"
+                        android:hint="ભાવ ૫"
+                        android:textColor="@color/White"
+                        android:textColorHint="@color/White" />
+
+                    <EditText
+                        android:id="@+id/Edit_Text_15"
+                        android:layout_width="100dp"
+                        android:layout_height="46dp"
+                        android:layout_below="@id/SetDate"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="20dp"
+                        android:background="@drawable/box"
+                        android:gravity="center"
+                        android:hint="હીરા ૫"
+                        android:textColor="@color/White"
+                        android:textColorHint="@color/White"
+                        android:layout_marginLeft="20dp" />
+                    <TextView
+                        android:id="@+id/Edit_Text_25"
+                        android:layout_width="100dp"
+                        android:layout_height="46dp"
+                        android:layout_below="@id/SetDate"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="20dp"
+                        android:background="@drawable/box"
+                        android:gravity="center"
+                        android:hint="0"
+                        android:textColor="@color/White"
+                        android:textColorHint="@color/White"
+                        android:layout_marginLeft="20dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/linear7"
+                    android:layout_width="match_parent"
+                    android:layout_height="76dp"
+                    android:orientation="horizontal"
+                    android:layout_below="@id/linear6"
+                    android:gravity="center|top">
+
+                    <EditText
+                        android:id="@+id/Edit_Text_6"
+                        android:layout_width="100dp"
+                        android:layout_height="46dp"
+                        android:layout_below="@id/SetDate"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/box"
+                        android:gravity="center"
+                        android:hint="ભાવ ૬"
+                        android:textColor="@color/White"
+                        android:textColorHint="@color/White" />
+
+                    <EditText
+                        android:id="@+id/Edit_Text_16"
+                        android:layout_width="100dp"
+                        android:layout_height="46dp"
+                        android:layout_below="@id/SetDate"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="20dp"
+                        android:background="@drawable/box"
+                        android:gravity="center"
+                        android:hint="હીરા ૬"
+                        android:textColor="@color/White"
+                        android:textColorHint="@color/White"
+                        android:layout_marginLeft="20dp" />
+                    <TextView
+                        android:id="@+id/Edit_Text_26"
+                        android:layout_width="100dp"
+                        android:layout_height="46dp"
+                        android:layout_below="@id/SetDate"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="20dp"
+                        android:background="@drawable/box"
+                        android:gravity="center"
+                        android:hint="0"
+                        android:textColor="@color/White"
+                        android:textColorHint="@color/White"
+                        android:layout_marginLeft="20dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear8"
+                    android:layout_width="match_parent"
+                    android:layout_height="73dp"
+                    android:layout_below="@id/linear7"
+                    android:gravity="center|top"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/Edit_Text_17"
+                        android:layout_width="100dp"
+                        android:layout_height="46dp"
+                        android:layout_below="@id/SetDate"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginStart="120dp"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:text="કુલ ટોટલ"
+                        android:textColor="@color/White"
+                        android:textColorHint="@color/White"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/Edit_Text_27"
+                        android:layout_width="100dp"
+                        android:layout_height="46dp"
+                        android:layout_below="@id/SetDate"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/box"
+                        android:gravity="center"
+                        android:hint="0.0"
+                        android:textColor="@color/White"
+                        android:textColorHint="@color/White" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear9"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/linear8"
+                    android:gravity="center|top"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/Edit_Text_8"
+                        android:layout_width="352dp"
+                        android:layout_height="46dp"
+                        android:layout_below="@id/SetDate"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/button"
+                        android:gravity="center"
+                        android:text="હીરા ઉમેરો"
+                        android:textColor="@color/White"
+                        android:textColorHint="@color/White"
+                        android:textSize="18dp" />
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

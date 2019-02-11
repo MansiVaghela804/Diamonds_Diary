@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/homebackground"
+    tools:context=".Home_Button4_Activity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/Name">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/backspace"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ભાવ સેવ કરો"
+            android:textSize="20sp"
+            android:textColor="@color/White"
+            android:layout_marginStart="110dp"
+            android:layout_marginLeft="110dp" />
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ભાવ"
+                android:textColor="@color/White"
+                android:gravity="center"
+                android:textSize="33sp" />
+
+            <EditText
+                android:id="@+id/Edit_Text_1"
+                android:layout_width="140dp"
+                android:layout_height="46dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:layout_below="@id/textview"
+                android:background="@drawable/box"
+                android:hint=" ભાવ ૧"
+                android:textColor="@color/White"
+                android:textColorHint="@color/White"
+                android:layout_centerHorizontal="true"/>
+
+            <EditText
+                android:id="@+id/Edit_Text_2"
+                android:layout_width="140dp"
+                android:layout_height="46dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:layout_below="@id/Edit_Text_1"
+                android:background="@drawable/box"
+                android:hint="ભાવ ૨"
+                android:textColor="@color/White"
+                android:textColorHint="@color/White"
+                android:layout_centerHorizontal="true" />
+
+            <EditText
+                android:id="@+id/Edit_Text_3"
+                android:layout_width="140dp"
+                android:layout_height="46dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:layout_below="@id/Edit_Text_2"
+                android:background="@drawable/box"
+                android:hint="ભાવ ૩"
+                android:textColor="@color/White"
+                android:textColorHint="@color/White"
+                android:layout_centerHorizontal="true" />
+
+            <EditText
+                android:id="@+id/Edit_Text_4"
+                android:layout_width="140dp"
+                android:layout_height="46dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:layout_below="@id/Edit_Text_3"
+                android:background="@drawable/box"
+                android:hint="ભાવ ૪"
+                android:textColor="@color/White"
+                android:textColorHint="@color/White"
+                android:layout_centerHorizontal="true" />
+
+            <EditText
+                android:id="@+id/Edit_Text_5"
+                android:layout_width="140dp"
+                android:layout_height="46dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:layout_below="@id/Edit_Text_4"
+                android:background="@drawable/box"
+                android:hint="ભાવ ૫"
+                android:textColor="@color/White"
+                android:textColorHint="@color/White"
+                android:layout_centerHorizontal="true" />
+
+            <EditText
+                android:id="@+id/Edit_Text_6"
+                android:layout_width="140dp"
+                android:layout_height="46dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:layout_below="@id/Edit_Text_5"
+                android:background="@drawable/box"
+                android:hint="ભાવ ૬"
+                android:textColor="@color/Black"
+                android:textColorHint="@color/White"
+                android:layout_centerHorizontal="true" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="76dp"
+                android:layout_below="@id/Edit_Text_6"
+                android:layout_marginTop="6dp"
+                android:gravity="center"
+                android:layout_centerHorizontal="true">
+
+                <Button
+                    android:id="@+id/Save"
+                    android:layout_width="340dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button"
+                    android:text="ભાવ સેવ કરો"
+                    android:textColor="@color/White"
+                    android:textSize="16sp"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

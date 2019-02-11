@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/homebackground"
+    tools:context=".Home_Button2_Activity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/Name">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/backspace"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ઉપાડ લખો"
+            android:textSize="20sp"
+            android:textColor="@color/White"
+            android:layout_marginStart="110dp"
+            android:layout_marginLeft="110dp" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/SetDate"
+            android:layout_width="310dp"
+            android:layout_height="48dp"
+            android:onClick="Datepicker"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Date"
+            android:textStyle="bold"
+            android:textColor="@color/White"
+            android:textSize="22sp"
+            android:background="@drawable/box"
+            android:layout_centerHorizontal="true"/>
+
+        <EditText
+            android:id="@+id/money"
+            android:layout_width="310dp"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:hint="ઉપાડ"
+            android:textColor="@color/White"
+            android:textColorHint="@color/White"
+            android:background="@drawable/box"
+            android:layout_below="@+id/SetDate"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"/>
+        <Button
+            android:layout_width="310dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button"
+            android:text="ઉપાડ"
+            android:textColor="@color/White"
+            android:textSize="18dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/money"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</LinearLayout>

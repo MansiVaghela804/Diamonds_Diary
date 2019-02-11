@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/diamonds1"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="320dp"
+        android:layout_height="420dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+            <LinearLayout
+                android:layout_width="318dp"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/logo"
+                    android:layout_width="50sp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="29sp"
+                    android:layout_marginStart="29sp"
+                    android:src="@drawable/logo" />
+
+                <TextView
+                    android:id="@+id/textHomeDeocr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6sp"
+                    android:layout_marginStart="6sp"
+                    android:layout_marginTop="12sp"
+                    android:text="હીરા ડાયરી"
+                    android:textColor="@color/Name"
+                    android:textSize="36sp"
+                    android:textStyle="normal|bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="0sp">
+
+                <LinearLayout
+                    android:layout_width="324dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="0sp"
+                    android:layout_marginStart="24sp"
+                    android:layout_marginLeft="24sp">
+
+                    <EditText
+                        android:id="@+id/textfirstname"
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:hint="પ્રથમ નામ"
+                        android:textColorHint="@color/OffWhite" />
+
+                    <EditText
+                        android:id="@+id/textlastname"
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:hint="છેલ્લું નામ"
+                        android:layout_marginStart="4sp"
+                        android:textColorHint="@color/OffWhite"
+                        android:layout_marginLeft="6sp" />
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/textemail"
+                    android:layout_width="285dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24sp"
+                    android:layout_marginStart="24sp"
+                    android:layout_marginTop="14sp"
+                    android:hint="ફોન નંબર"
+                    android:textColorHint="@color/OffWhite" />
+
+
+                <EditText
+                    android:id="@+id/textpassword"
+                    android:layout_width="285dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24sp"
+                    android:layout_marginStart="24sp"
+                    android:layout_marginTop="14sp"
+                    android:hint="પાસવર્ડ"
+                    android:textColorHint="@color/OffWhite" />
+
+                <EditText
+                    android:id="@+id/textconfirmpassword"
+                    android:layout_width="285dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24sp"
+                    android:layout_marginStart="24sp"
+                    android:layout_marginTop="14sp"
+                    android:hint="પાસવર્ડની ખાતરી કરો"
+                    android:textColorHint="@color/OffWhite" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="46dp"
+                android:layout_marginStart="46sp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/register"
+                    android:layout_width="106dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="78sp"
+                    android:layout_marginStart="78sp"
+                    android:background="@drawable/button"
+                    android:text="રજિસ્ટર"
+                    android:textColor="@color/White"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40sp"
+                    android:layout_marginStart="40sp"
+                    android:layout_marginTop="9sp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/nosignin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ખાતું પહેલેથી જ છે?"
+                        android:textColor="@color/Black"
+                        android:textSize="16sp"
+                        android:textStyle="normal|bold" />
+
+                    <TextView
+                        android:id="@+id/signin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4sp"
+                        android:layout_marginStart="4sp"
+                        android:text="પ્રવેશ કરો"
+                        android:textColor="@color/Black"
+                        android:textSize="16sp"
+                        android:textStyle="normal|bold" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

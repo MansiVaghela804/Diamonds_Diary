@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="none">
+    <!--Profile-->
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_account_box_black_24dp"
+        android:title="પ્રોફાઇલ"/>
+    <!--Language Change-->
+    <item
+        android:id="@+id/nav_language_change"
+        android:icon="@drawable/language_change"
+        android:title="ભાષા બદલો" />
+    <!--Setting-->
+    <item
+        android:id="@+id/nav_setting"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="સેટિંગ" />
+    <!--Logout-->
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/logout"
+        android:title="લૉગ આઉટ" />
+    </group>
+</menu>
