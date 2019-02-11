@@ -64,36 +64,38 @@
                     android:gravity="center|top">
 
                     <TextView
-                        android:id="@+id/textview1"
+                        android:id="@+id/TextView1"
                         android:layout_width="100dp"
                         android:layout_height="46dp"
                         android:layout_marginTop="10dp"
+                        android:gravity="center"
                         android:text="ભાવ"
                         android:textColor="@color/White"
-                        android:gravity="center"
                         android:textSize="33sp" />
+
                     <TextView
-                        android:id="@+id/textview2"
+                        android:id="@+id/TextView2"
                         android:layout_width="100dp"
                         android:layout_height="46dp"
+                        android:layout_marginLeft="20dp"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="10dp"
+                        android:gravity="center"
                         android:text="હીરા"
                         android:textColor="@color/White"
-                        android:gravity="center"
-                        android:textSize="33sp"
-                        android:layout_marginLeft="20dp" />
+                        android:textSize="33sp" />
+
                     <TextView
-                        android:id="@+id/textview3"
+                        android:id="@+id/TextView3"
                         android:layout_width="100dp"
                         android:layout_height="46dp"
-                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="20dp"
                         android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
                         android:text="ટોટલ"
                         android:textColor="@color/White"
-                        android:gravity="center"
-                        android:textSize="33sp"
-                        android:layout_marginLeft="20dp" />
+                        android:textSize="33sp" />
 
                 </LinearLayout>
 
@@ -109,6 +111,7 @@
                         android:id="@+id/Edit_Text_1"
                         android:layout_width="100dp"
                         android:layout_height="46dp"
+                        android:inputType="number"
                         android:layout_below="@id/SetDate"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="20dp"
@@ -122,6 +125,7 @@
                         android:id="@+id/Edit_Text_11"
                         android:layout_width="100dp"
                         android:layout_height="46dp"
+                        android:inputType="number"
                         android:layout_below="@id/SetDate"
                         android:layout_centerHorizontal="true"
                         android:layout_marginLeft="20dp"
@@ -134,7 +138,7 @@
                         android:textColorHint="@color/White" />
 
                     <TextView
-                        android:id="@+id/Edit_Text_21"
+                        android:id="@+id/Text_View_21"
                         android:layout_width="100dp"
                         android:layout_height="46dp"
                         android:layout_below="@id/SetDate"
@@ -145,6 +149,7 @@
                         android:background="@drawable/box"
                         android:gravity="center"
                         android:hint="0"
+                        android:inputType="number"
                         android:textColor="@color/White"
                         android:textColorHint="@color/White" />
                 </LinearLayout>
@@ -160,6 +165,7 @@
                         android:id="@+id/Edit_Text_2"
                         android:layout_width="100dp"
                         android:layout_height="46dp"
+                        android:inputType="number"
                         android:layout_below="@id/SetDate"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="20dp"
@@ -173,6 +179,7 @@
                         android:id="@+id/Edit_Text_12"
                         android:layout_width="100dp"
                         android:layout_height="46dp"
+                        android:inputType="number"
                         android:layout_below="@id/SetDate"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="20dp"
@@ -183,20 +190,22 @@
                         android:textColor="@color/White"
                         android:textColorHint="@color/White"
                         android:layout_marginLeft="20dp" />
+
                     <TextView
-                        android:id="@+id/Edit_Text_22"
+                        android:id="@+id/Text_View_22"
                         android:layout_width="100dp"
                         android:layout_height="46dp"
                         android:layout_below="@id/SetDate"
                         android:layout_centerHorizontal="true"
-                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="20dp"
                         android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
                         android:background="@drawable/box"
                         android:gravity="center"
                         android:hint="0"
+                        android:inputType="number"
                         android:textColor="@color/White"
-                        android:textColorHint="@color/White"
-                        android:layout_marginLeft="20dp" />
+                        android:textColorHint="@color/White" />
                 </LinearLayout>
                 <LinearLayout
                     android:id="@+id/linear4"
@@ -210,6 +219,7 @@
                         android:id="@+id/Edit_Text_3"
                         android:layout_width="100dp"
                         android:layout_height="46dp"
+                        android:inputType="number"
                         android:layout_below="@id/SetDate"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="20dp"
@@ -223,6 +233,7 @@
                         android:id="@+id/Edit_Text_13"
                         android:layout_width="100dp"
                         android:layout_height="46dp"
+                        android:inputType="number"
                         android:layout_below="@id/SetDate"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="20dp"
@@ -233,20 +244,22 @@
                         android:textColor="@color/White"
                         android:textColorHint="@color/White"
                         android:layout_marginLeft="20dp" />
+
                     <TextView
-                        android:id="@+id/Edit_Text_23"
+                        android:id="@+id/Text_View_23"
                         android:layout_width="100dp"
                         android:layout_height="46dp"
                         android:layout_below="@id/SetDate"
                         android:layout_centerHorizontal="true"
-                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="20dp"
                         android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
                         android:background="@drawable/box"
                         android:gravity="center"
                         android:hint="0"
+                        android:inputType="number"
                         android:textColor="@color/White"
-                        android:textColorHint="@color/White"
-                        android:layout_marginLeft="20dp" />
+                        android:textColorHint="@color/White" />
                 </LinearLayout>
                 <LinearLayout
                     android:id="@+id/linear5"
@@ -260,6 +273,7 @@
                         android:id="@+id/Edit_Text_4"
                         android:layout_width="100dp"
                         android:layout_height="46dp"
+                        android:inputType="number"
                         android:layout_below="@id/SetDate"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="20dp"
@@ -273,6 +287,7 @@
                         android:id="@+id/Edit_Text_14"
                         android:layout_width="100dp"
                         android:layout_height="46dp"
+                        android:inputType="number"
                         android:layout_below="@id/SetDate"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="20dp"
@@ -283,20 +298,22 @@
                         android:textColor="@color/White"
                         android:textColorHint="@color/White"
                         android:layout_marginLeft="20dp" />
+
                     <TextView
-                        android:id="@+id/Edit_Text_24"
+                        android:id="@+id/Text_View_24"
                         android:layout_width="100dp"
                         android:layout_height="46dp"
                         android:layout_below="@id/SetDate"
                         android:layout_centerHorizontal="true"
-                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="20dp"
                         android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
                         android:background="@drawable/box"
                         android:gravity="center"
                         android:hint="0"
+                        android:inputType="number"
                         android:textColor="@color/White"
-                        android:textColorHint="@color/White"
-                        android:layout_marginLeft="20dp" />
+                        android:textColorHint="@color/White" />
                 </LinearLayout>
                 <LinearLayout
                     android:id="@+id/linear6"
@@ -310,6 +327,7 @@
                         android:id="@+id/Edit_Text_5"
                         android:layout_width="100dp"
                         android:layout_height="46dp"
+                        android:inputType="number"
                         android:layout_below="@id/SetDate"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="20dp"
@@ -323,6 +341,7 @@
                         android:id="@+id/Edit_Text_15"
                         android:layout_width="100dp"
                         android:layout_height="46dp"
+                        android:inputType="number"
                         android:layout_below="@id/SetDate"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="20dp"
@@ -334,9 +353,10 @@
                         android:textColorHint="@color/White"
                         android:layout_marginLeft="20dp" />
                     <TextView
-                        android:id="@+id/Edit_Text_25"
+                        android:id="@+id/Text_View_25"
                         android:layout_width="100dp"
                         android:layout_height="46dp"
+                        android:inputType="number"
                         android:layout_below="@id/SetDate"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="20dp"
@@ -360,6 +380,7 @@
                         android:id="@+id/Edit_Text_6"
                         android:layout_width="100dp"
                         android:layout_height="46dp"
+                        android:inputType="number"
                         android:layout_below="@id/SetDate"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="20dp"
@@ -373,6 +394,7 @@
                         android:id="@+id/Edit_Text_16"
                         android:layout_width="100dp"
                         android:layout_height="46dp"
+                        android:inputType="number"
                         android:layout_below="@id/SetDate"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="20dp"
@@ -384,9 +406,10 @@
                         android:textColorHint="@color/White"
                         android:layout_marginLeft="20dp" />
                     <TextView
-                        android:id="@+id/Edit_Text_26"
+                        android:id="@+id/Text_View_26"
                         android:layout_width="100dp"
                         android:layout_height="46dp"
+                        android:inputType="number"
                         android:layout_below="@id/SetDate"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="20dp"
@@ -408,9 +431,10 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:id="@+id/Edit_Text_17"
+                        android:id="@+id/Text_View_17"
                         android:layout_width="100dp"
                         android:layout_height="46dp"
+                        android:inputType="number"
                         android:layout_below="@id/SetDate"
                         android:layout_centerHorizontal="true"
                         android:layout_marginLeft="20dp"
@@ -423,9 +447,10 @@
                         android:textSize="20dp" />
 
                     <TextView
-                        android:id="@+id/Edit_Text_27"
+                        android:id="@+id/Text_View_27"
                         android:layout_width="100dp"
                         android:layout_height="46dp"
+                        android:inputType="number"
                         android:layout_below="@id/SetDate"
                         android:layout_centerHorizontal="true"
                         android:layout_marginLeft="20dp"
@@ -447,7 +472,7 @@
                     android:orientation="horizontal">
 
                     <Button
-                        android:id="@+id/Edit_Text_8"
+                        android:id="@+id/ADD"
                         android:layout_width="352dp"
                         android:layout_height="46dp"
                         android:layout_below="@id/SetDate"

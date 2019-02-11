@@ -53,6 +53,7 @@
             android:id="@+id/money"
             android:layout_width="310dp"
             android:layout_height="48dp"
+            android:inputType="number"
             android:gravity="center"
             android:hint="ઉપાડ"
             android:textColor="@color/White"

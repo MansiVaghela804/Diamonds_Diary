@@ -50,6 +50,7 @@
                 android:id="@+id/Edit_Text_1"
                 android:layout_width="140dp"
                 android:layout_height="46dp"
+                android:inputType="number"
                 android:layout_marginTop="20dp"
                 android:gravity="center"
                 android:layout_below="@id/textview"
@@ -63,6 +64,7 @@
                 android:id="@+id/Edit_Text_2"
                 android:layout_width="140dp"
                 android:layout_height="46dp"
+                android:inputType="number"
                 android:layout_marginTop="10dp"
                 android:gravity="center"
                 android:layout_below="@id/Edit_Text_1"
@@ -76,6 +78,7 @@
                 android:id="@+id/Edit_Text_3"
                 android:layout_width="140dp"
                 android:layout_height="46dp"
+                android:inputType="number"
                 android:layout_marginTop="10dp"
                 android:gravity="center"
                 android:layout_below="@id/Edit_Text_2"
@@ -89,6 +92,7 @@
                 android:id="@+id/Edit_Text_4"
                 android:layout_width="140dp"
                 android:layout_height="46dp"
+                android:inputType="number"
                 android:layout_marginTop="10dp"
                 android:gravity="center"
                 android:layout_below="@id/Edit_Text_3"
@@ -102,6 +106,7 @@
                 android:id="@+id/Edit_Text_5"
                 android:layout_width="140dp"
                 android:layout_height="46dp"
+                android:inputType="number"
                 android:layout_marginTop="10dp"
                 android:gravity="center"
                 android:layout_below="@id/Edit_Text_4"
@@ -115,18 +120,19 @@
                 android:id="@+id/Edit_Text_6"
                 android:layout_width="140dp"
                 android:layout_height="46dp"
+                android:inputType="number"
                 android:layout_marginTop="10dp"
                 android:gravity="center"
                 android:layout_below="@id/Edit_Text_5"
                 android:background="@drawable/box"
                 android:hint="ભાવ ૬"
-                android:textColor="@color/Black"
+                android:textColor="@color/White"
                 android:textColorHint="@color/White"
                 android:layout_centerHorizontal="true" />
 
             <RelativeLayout
                 android:layout_width="wrap_content"
-                android:layout_height="76dp"
+                android:layout_height="wrap_content"
                 android:layout_below="@id/Edit_Text_6"
                 android:layout_marginTop="6dp"
                 android:gravity="center"
@@ -141,6 +147,29 @@
                     android:textColor="@color/White"
                     android:textSize="16sp"
                     android:layout_centerHorizontal="true" />
+
+                <Button
+                    android:id="@+id/show"
+                    android:layout_width="340dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Save"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/button"
+                    android:text="Show"
+                    android:textColor="@color/White"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="317dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/show"
+                    android:layout_marginTop="10dp"
+                    android:text="Show Price Data"
+                    android:textColor="@color/White"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </RelativeLayout>
     </ScrollView>

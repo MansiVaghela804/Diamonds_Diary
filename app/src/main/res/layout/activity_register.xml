@@ -113,8 +113,7 @@
             <LinearLayout
                 android:layout_width="240dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="46dp"
-                android:layout_marginStart="46sp"
+                android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:orientation="vertical">
 
@@ -122,8 +121,7 @@
                     android:id="@+id/register"
                     android:layout_width="106dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="78sp"
-                    android:layout_marginStart="78sp"
+                    android:layout_gravity="center"
                     android:background="@drawable/button"
                     android:text="રજિસ્ટર"
                     android:textColor="@color/White"
@@ -132,8 +130,7 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="40sp"
-                    android:layout_marginStart="40sp"
+                    android:layout_gravity="center"
                     android:layout_marginTop="9sp"
                     android:orientation="horizontal">
 
@@ -143,8 +140,7 @@
                         android:layout_height="wrap_content"
                         android:text="ખાતું પહેલેથી જ છે?"
                         android:textColor="@color/Black"
-                        android:textSize="16sp"
-                        android:textStyle="normal|bold" />
+                        android:textSize="15sp" />
 
                     <TextView
                         android:id="@+id/signin"
@@ -154,8 +150,7 @@
                         android:layout_marginStart="4sp"
                         android:text="પ્રવેશ કરો"
                         android:textColor="@color/Black"
-                        android:textSize="16sp"
-                        android:textStyle="normal|bold" />
+                        android:textSize="15sp" />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
