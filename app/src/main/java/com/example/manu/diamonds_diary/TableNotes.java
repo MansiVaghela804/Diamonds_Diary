@@ -3,19 +3,16 @@ package com.example.manu.diamonds_diary;
 public class TableNotes {
     public static final String TABLE_NAME = "price";
 
-    public static final String COLUMN_PRICE_1 = "price1";
-    public static final String COLUMN_PRICE_2 = "price2";
-    public static final String COLUMN_PRICE_3 = "price3";
-    public static final String COLUMN_PRICE_4 = "price4";
-    public static final String COLUMN_PRICE_5 = "price5";
-    public static final String COLUMN_PRICE_6 = "price6";
+    public static final String COLUMN_USER_NAME = "name";
+    public static final String COLUMN_USER_EMAIL = "email";
+    public static final String COLUMN_USER_PASSWORD = "password";
 
     //  Create table SQL query
     public static final String CREATE_TABLE =
             "CREATE TABLE " + TABLE_NAME + "("
-                    + COLUMN_PRICE_1 + " TEXT,"
-                    + COLUMN_PRICE_2 + " TEXT,"
-                    + COLUMN_PRICE_3 + " TEXT"
+                    + COLUMN_USER_NAME + " TEXT,"
+                    + COLUMN_USER_EMAIL + " TEXT,"
+                    + COLUMN_USER_PASSWORD + " TEXT"
                     + ")";
 
     private String name,email,password;
