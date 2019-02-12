@@ -46,7 +46,7 @@ public class MyDatabaseHelper extends SQLiteOpenHelper {
         cv.put(TablePrice.COLUMN_PRICE_6, price.getPrice6());
 //      Insert Row
         db.insert(TablePrice.TABLE_NAME,null,cv);
-
+         db.update(TablePrice.TABLE_NAME,cv,"id",new String[]{String.valueOf(price.getId())});
 //        DB Connection Close
         db.close();
     }
@@ -59,4 +59,6 @@ public class MyDatabaseHelper extends SQLiteOpenHelper {
                 null,null,null,null,null);
         return cursor;
     }
+
+
 }

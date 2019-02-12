@@ -30,7 +30,6 @@ public class Home_Button4_Activity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(Home_Button4_Activity.this,HomeActivity.class);
                 startActivity(intent);
-                Toast.makeText(Home_Button4_Activity.this, "Back", Toast.LENGTH_SHORT).show();
             }
         });
         dbhelper  = new MyDatabaseHelper(Home_Button4_Activity.this);

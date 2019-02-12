@@ -22,9 +22,11 @@ public class TablePrice {
                     + COLUMN_PRICE_5 + " INTEGER,"
                     + COLUMN_PRICE_6 + " INTEGER" + ")";
 
+    private int id;
     private Integer price1,price2,price3,price4,price5,price6;
 
-    public TablePrice(Integer price1, Integer price2, Integer price3, Integer price4, Integer price5, Integer price6) {
+    public TablePrice(int id,Integer price1, Integer price2, Integer price3, Integer price4, Integer price5, Integer price6) {
+        this.id = id;
         this.price1 = price1;
         this.price2 = price2;
         this.price3 = price3;
@@ -34,6 +36,14 @@ public class TablePrice {
     }
 
     public TablePrice() {
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public Integer getPrice1() {
