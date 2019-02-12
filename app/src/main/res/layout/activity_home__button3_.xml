@@ -21,14 +21,500 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/backspace"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="હીરા જુઓ"
-            android:textSize="20sp"
-            android:textColor="@color/White"
-            android:layout_marginStart="110dp"
-            android:layout_marginLeft="110dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="હીરા જુઓ"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textColor="@color/White"
+                android:layout_marginStart="110dp"
+                android:layout_marginLeft="110dp" />
+
 
     </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center|top">
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="42dp"
+                android:layout_height="47dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_chevron_left_white_24dp" />
+
+            <TextView
+                android:id="@+id/SetDate"
+                android:layout_width="280dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/box"
+                android:gravity="center"
+                android:onClick="Datepicker"
+                android:text="01/01/2016 To 31/01/2016"
+                android:textColor="@color/White"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="42dp"
+                android:layout_height="47dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_chevron_right_white_24dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_below="@id/linear1"
+            android:orientation="vertical">
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbarStyle="outsideInset"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/horizonallinear1"
+                        android:layout_width="match_parent"
+                        android:layout_height="43dp"
+                        android:background="@drawable/box"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/TexiView1"
+                            android:layout_width="110dp"
+                            android:layout_height="wrap_content"
+                            android:text="તારીખ"
+                            android:gravity="center"
+                            android:textColor="@color/White"
+                            android:textSize="18dp" />
+
+                        <ImageView
+                            android:id="@+id/ImageView1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/vertical_small_line" />
+
+                        <TextView
+                            android:id="@+id/TexiView2"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="0.0"
+                            android:textColor="@color/White"
+                            android:textSize="18dp" />
+
+                        <ImageView
+                            android:id="@+id/ImageView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/vertical_small_line" />
+
+                        <TextView
+                            android:id="@+id/TexiView3"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="0.0"
+                            android:textColor="@color/White"
+                            android:textSize="18dp" />
+
+                        <ImageView
+                            android:id="@+id/ImageView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/vertical_small_line" />
+
+                        <TextView
+                            android:id="@+id/TexiView4"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="0.0"
+                            android:textColor="@color/White"
+                            android:textSize="18dp" />
+
+                        <ImageView
+                            android:id="@+id/ImageView4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/vertical_small_line" />
+
+                        <TextView
+                            android:id="@+id/TexiView5"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="0.0"
+                            android:textColor="@color/White"
+                            android:textSize="18dp" />
+
+                        <ImageView
+                            android:id="@+id/ImageView5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/vertical_small_line" />
+
+                        <TextView
+                            android:id="@+id/TexiView6"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="0.0"
+                            android:textColor="@color/White"
+                            android:textSize="18dp" />
+
+                        <ImageView
+                            android:id="@+id/ImageView6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/vertical_small_line" />
+
+                        <TextView
+                            android:id="@+id/TexiView7"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="0.0"
+                            android:textColor="@color/White"
+                            android:textSize="18dp" />
+
+                        <ImageView
+                            android:id="@+id/ImageView7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/vertical_small_line" />
+
+                        <TextView
+                            android:id="@+id/TexiView8"
+                            android:layout_width="110dp"
+                            android:layout_height="wrap_content"
+                            android:text="ઉપાડ"
+                            android:gravity="center"
+                            android:textColor="@color/White"
+                            android:textSize="18dp" />
+
+                        <ImageView
+                            android:id="@+id/ImageView8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/vertical_small_line" />
+
+                        <TextView
+                            android:id="@+id/TexiView9"
+                            android:layout_width="110dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="10dp"
+                            android:text="કુલ"
+                            android:gravity="center"
+                            android:textColor="@color/White"
+                            android:textSize="18dp"
+                            android:layout_marginRight="10dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="38dp"
+                        android:layout_below="@id/horizonallinear1"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/box"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/TexiView11"
+                            android:layout_width="110dp"
+                            android:layout_height="wrap_content"
+                            android:text="18/12/2016"
+                            android:gravity="center"
+                            android:textColor="@color/White"
+                            android:textSize="18dp" />
+
+                        <ImageView
+                            android:id="@+id/ImageView11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/vertical_small_line" />
+
+                        <TextView
+                            android:id="@+id/TexiView12"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="0"
+                            android:textColor="@color/White"
+                            android:textSize="18dp" />
+
+                        <ImageView
+                            android:id="@+id/ImageView12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/vertical_small_line" />
+
+                        <TextView
+                            android:id="@+id/TexiView13"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="0"
+                            android:textColor="@color/White"
+                            android:textSize="18dp" />
+
+                        <ImageView
+                            android:id="@+id/ImageView13"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/vertical_small_line" />
+
+                        <TextView
+                            android:id="@+id/TexiView14"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="0"
+                            android:textColor="@color/White"
+                            android:textSize="18dp" />
+
+                        <ImageView
+                            android:id="@+id/ImageView14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/vertical_small_line" />
+
+                        <TextView
+                            android:id="@+id/TexiView15"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="0"
+                            android:textColor="@color/White"
+                            android:textSize="18dp" />
+
+                        <ImageView
+                            android:id="@+id/ImageView15"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/vertical_small_line" />
+
+                        <TextView
+                            android:id="@+id/TexiView16"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="0"
+                            android:textColor="@color/White"
+                            android:textSize="18dp" />
+
+                        <ImageView
+                            android:id="@+id/ImageView16"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/vertical_small_line" />
+
+                        <TextView
+                            android:id="@+id/TexiView17"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="0"
+                            android:textColor="@color/White"
+                            android:textSize="18dp" />
+
+                        <ImageView
+                            android:id="@+id/ImageView17"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/vertical_small_line" />
+
+                        <TextView
+                            android:id="@+id/TexiView18"
+                            android:layout_width="110dp"
+                            android:layout_height="wrap_content"
+                            android:text="0.0"
+                            android:gravity="center"
+                            android:textColor="@color/White"
+                            android:textSize="18dp" />
+
+                        <ImageView
+                            android:id="@+id/ImageView18"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/vertical_small_line" />
+
+                        <TextView
+                            android:id="@+id/TexiView19"
+                            android:layout_width="110dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="10dp"
+                            android:text="0.0"
+                            android:gravity="center"
+                            android:textColor="@color/White"
+                            android:textSize="18dp"
+                            android:layout_marginRight="10dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="38dp"
+                        android:layout_below="@id/horizonallinear1"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/box"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/TexiView21"
+                            android:layout_width="110dp"
+                            android:layout_height="wrap_content"
+                            android:text="કુલ"
+                            android:gravity="center"
+                            android:textColor="@color/White"
+                            android:textSize="18dp" />
+
+                        <ImageView
+                            android:id="@+id/ImageView21"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/vertical_small_line" />
+
+                        <TextView
+                            android:id="@+id/TexiView22"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="0"
+                            android:textColor="@color/White"
+                            android:textSize="18dp" />
+
+                        <ImageView
+                            android:id="@+id/ImageView22"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/vertical_small_line" />
+
+                        <TextView
+                            android:id="@+id/TexiView23"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="0"
+                            android:textColor="@color/White"
+                            android:textSize="18dp" />
+
+                        <ImageView
+                            android:id="@+id/ImageView23"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/vertical_small_line" />
+
+                        <TextView
+                            android:id="@+id/TexiView24"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="0"
+                            android:textColor="@color/White"
+                            android:textSize="18dp" />
+
+                        <ImageView
+                            android:id="@+id/ImageView24"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/vertical_small_line" />
+
+                        <TextView
+                            android:id="@+id/TexiView25"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="0"
+                            android:textColor="@color/White"
+                            android:textSize="18dp" />
+
+                        <ImageView
+                            android:id="@+id/ImageView25"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/vertical_small_line" />
+
+                        <TextView
+                            android:id="@+id/TexiView26"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="0"
+                            android:textColor="@color/White"
+                            android:textSize="18dp" />
+
+                        <ImageView
+                            android:id="@+id/ImageView26"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/vertical_small_line" />
+
+                        <TextView
+                            android:id="@+id/TexiView27"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="0"
+                            android:textColor="@color/White"
+                            android:textSize="18dp" />
+
+                        <ImageView
+                            android:id="@+id/ImageView27"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/vertical_small_line" />
+
+                        <TextView
+                            android:id="@+id/TexiView28"
+                            android:layout_width="110dp"
+                            android:layout_height="wrap_content"
+                            android:text="0.0"
+                            android:gravity="center"
+                            android:textColor="@color/White"
+                            android:textSize="18dp" />
+
+                        <ImageView
+                            android:id="@+id/ImageView28"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/vertical_small_line" />
+                        <TextView
+                            android:id="@+id/TexiView29"
+                            android:layout_width="110dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="10dp"
+                            android:text="0.0"
+                            android:gravity="center"
+                            android:textColor="@color/White"
+                            android:textSize="18dp"
+                            android:layout_marginRight="10dp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </RelativeLayout>
 </LinearLayout>

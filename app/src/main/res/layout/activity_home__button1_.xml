@@ -26,6 +26,7 @@
             android:layout_marginLeft="110dp"
             android:layout_marginStart="110dp"
             android:text="હીરા લખો"
+            android:gravity="center"
             android:textColor="@color/White"
             android:textSize="20sp" />
     </android.support.v7.widget.Toolbar>
