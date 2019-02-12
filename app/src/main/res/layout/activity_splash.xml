@@ -10,15 +10,9 @@
     android:gravity="center"
     tools:context=".SplashActivity">
 
-    <!--<ImageView-->
-        <!--android:id="@+id/spalsh"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:src="@drawable/splashlogo"/>-->
-
     <ImageView
         android:id="@+id/splash"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/splashlogo" />
 </LinearLayout>
