@@ -19,6 +19,7 @@ public class Home_Button3_Activity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(Home_Button3_Activity.this,HomeActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
     }

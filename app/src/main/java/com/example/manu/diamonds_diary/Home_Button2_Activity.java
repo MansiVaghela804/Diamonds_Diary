@@ -26,6 +26,7 @@ public class Home_Button2_Activity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(Home_Button2_Activity.this,HomeActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
         setDate = (TextView)findViewById(R.id.SetDate);

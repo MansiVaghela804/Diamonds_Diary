@@ -19,6 +19,7 @@ public class ProfileActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(ProfileActivity.this,HomeActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
     }
